@@ -28,6 +28,12 @@ pipeline{
                 }
             }
         }
+        stage("Complete"){
+            steps{
+                    echo "test complete"
+                }
+            }
+        }
 
     }
 
