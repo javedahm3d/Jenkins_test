@@ -30,7 +30,7 @@ pipeline{
         }
         stage("Complete"){
             steps{
-                    echo "test complete"
+                    echo "test completed 001"
                 }
             }
         }
